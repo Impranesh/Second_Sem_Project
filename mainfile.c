@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "kamran.h"
+#include "pranesh.h"
 
 int main() {
     printf("Welcome to Universal Cipher Decoder\n"); // Enter name of program
@@ -8,6 +9,8 @@ int main() {
     int op = 0;
     printf("1. Polybius square cipher\n");
     printf("2. Vigenere cipher\n");
+    printf("3.Atbash ciper\n);
+           
     // Add your code here
 
     printf("Select one of the above number (for exiting press -1): ");
