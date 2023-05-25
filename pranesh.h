@@ -37,29 +37,4 @@ void atbashCipher(char* message)
     }
 }
 
-int main()
-{
-    char message[1000];
-    
-    // for taking input from user in string  
-    
-    char ch;
-    int count=0;
-    while(ch!='\n')
-    {
-        scanf("%c",&ch);
-        message[count]=ch;
-        count ++;
-    }
-    message[count-1]='\0';
-    
-    
-    printf("Original message: %s\n", message);
-    
-    // Apply the Atbash cipher
-    atbashCipher(message);
-    
-    printf("Ciphered message: %s\n", message);
-    
-    return 0;
-}
+
